@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">All Test Suite</th></tr>
+<tr><td><a href="#t0">FlipKartLoginTest</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,497</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FlipKartSearchProductTest</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">14,769</td><td></td><td></td></tr>
+<tr><td><a href="#t2">FlipKartAddingRemovingProduct</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">8,493</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num attn">1</th><th class="num">0</th><th class="num">0</th><th class="num">40,759</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FlipKartLoginTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">tests.FlipKartLoginTest</td><td><a href="#m0">loginTest</a></td><td rowspan="5">1643578348282</td><td rowspan="5">1352</td></tr><tr class="passedeven"><td><a href="#m1">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m2">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m3">loginTest</a></td></tr><tr class="passedeven"><td><a href="#m4">loginTest</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FlipKartSearchProductTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.FlipKartSearchProductTest</td><td><a href="#m5">searchProductByMenu</a></td><td rowspan="1">1643578357937</td><td rowspan="1">2880</td></tr><tr class="passedeven"><td><a href="#m6">searchProductBySearchBox</a></td><td rowspan="1">1643578364271</td><td rowspan="1">3247</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">FlipKartAddingRemovingProduct &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">tests.FlipKartAddingRemovingProduct</td><td><a href="#m7">beforeMethod</a></td><td rowspan="1">1643578373508</td><td rowspan="1">3303</td></tr><tr><th colspan="4">FlipKartAddingRemovingProduct &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="2">tests.FlipKartAddingRemovingProduct</td><td><a href="#m8">afterMethod</a></td><td rowspan="1">1643578376947</td><td rowspan="1">-1643578376947</td></tr><tr class="skippedeven"><td><a href="#m9">tearDown</a></td><td rowspan="1">1643578376948</td><td rowspan="1">-1643578376948</td></tr><tr><th colspan="4">FlipKartAddingRemovingProduct &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">tests.FlipKartAddingRemovingProduct</td><td><a href="#m10">addRemoveVerification</a></td><td rowspan="1">1643578376815</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>FlipKartLoginTest</h2><h3 id="m0">tests.FlipKartLoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>malbariamit006@gmail.com</td><td></td><td>EmptyPassword</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.FlipKartLoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>Test123</td><td>test</td><td>InvalidEmailID</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">tests.FlipKartLoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td></td><td>Test1</td><td>EmptyEmailID</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.FlipKartLoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>malbariamit006@gmail.com</td><td>test</td><td>IncorrectPassword</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.FlipKartLoginTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>malbariamit006@gmail.com</td><td>Test007@gmail</td><td>CorrectCredentials</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FlipKartSearchProductTest</h2><h3 id="m5">tests.FlipKartSearchProductTest#searchProductByMenu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.FlipKartSearchProductTest#searchProductBySearchBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FlipKartAddingRemovingProduct</h2><h3 id="m7">tests.FlipKartAddingRemovingProduct#beforeMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;L0Z3Pu&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (815, 28). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL3400-2408&apos;, ip: &apos;172.16.12.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\amalbari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 490266419beee9a180e098acebee48a4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pages.BasePage.click(BasePage.java:28)
+	at pages.FlipKartHomePage.searchBySearchBox(FlipKartHomePage.java:101)
+	at tests.FlipKartAddingRemovingProduct.beforeMethod(FlipKartAddingRemovingProduct.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.FlipKartAddingRemovingProduct#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.FlipKartAddingRemovingProduct#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.FlipKartAddingRemovingProduct#addRemoveVerification</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button class=&quot;L0Z3Pu&quot; type=&quot;submit&quot;&gt;...&lt;/button&gt; is not clickable at point (815, 28). Other element would receive the click: &lt;div class=&quot;_2hriZF _2rbIyg&quot; tabindex=&quot;-1&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=97.0.4692.99)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DELL3400-2408&apos;, ip: &apos;172.16.12.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\amalbari\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 490266419beee9a180e098acebee48a4
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pages.BasePage.click(BasePage.java:28)
+	at pages.FlipKartHomePage.searchBySearchBox(FlipKartHomePage.java:101)
+	at tests.FlipKartAddingRemovingProduct.beforeMethod(FlipKartAddingRemovingProduct.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
